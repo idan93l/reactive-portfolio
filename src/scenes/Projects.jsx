@@ -83,7 +83,7 @@ const Projects = () => {
           />
           <Project
             title="Friend-Ship"
-            content="Registration with validation and ability to upload profile image. Uploading posts with images, liking posts and commenting on them. Adding friends and visiting their profile pages. Responsive, dark/light mode."
+            content="Registration with validation. Uploading image to profile and posts. likes and comments. Adding friends and visiting their profile pages. Responsive, dark/light mode."
           />
 
           {/* ROW 2 */}
@@ -92,7 +92,7 @@ const Projects = () => {
             title="Launchpad"
             content="Responsive playable, customizable, sample-based music Launchpad."
           />
-          <Project title="User-Management" content="Responsive user management app where an admin can see how many users are active. The admin can activate/deactivate any user and by double-clicking a user, a new page appears with the user's data." />
+          <Project title="User-Management" content="Responsive user management app where the admin can activate/deactivate any user. Double-clicking a user opens his profile page." />
 
           {/* ROW 3 */}
           <Project title="Snake" content="Christmas-themed snake game." />
