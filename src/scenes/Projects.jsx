@@ -18,17 +18,15 @@ const projectVariant = {
 const Project = ({ title, content }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+  const projectTitle = title.toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          {content}
-        </p>
+        <p className="mt-7">{content}</p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -79,17 +77,26 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" content={"loresdfsadfsdfsadfsadfsadf"}/>
-          <Project title="Project 2" />
+          <Project
+            title="Sequencer"
+            content="Responsive platform that allows multiple users to make music together in real-time through a beat sequencer."
+          />
+          <Project
+            title="Friend-Ship"
+            content="Registration with validation and ability to upload profile image. Uploading posts with images, liking posts and commenting on them. Adding friends and visiting their profile pages. Responsive, dark/light mode."
+          />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="CaRent" content="Fully responsive car rental app." />
+          <Project
+            title="Launchpad"
+            content="Responsive playable, customizable, sample-based music Launchpad."
+          />
+          <Project title="User-Management" content="Responsive user management app where an admin can see how many users are active. The admin can activate/deactivate any user and by double-clicking a user, a new page appears with the user's data." />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project title="Snake" content="Christmas-themed snake game." />
+          <Project title="Portfolio" content="Responsive and clean looking portfolio made from scratch." />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
