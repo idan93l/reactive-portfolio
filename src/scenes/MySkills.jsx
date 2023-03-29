@@ -73,7 +73,8 @@ const MySkills = () => {
           <p className="mt-5">
             Gained practical experience working at Volta Solar with Agile
             Methodologies, data aggregations in MongoDB and data filtrations in
-            AWS environment using AWS Lambda, Node.js, Jsonata.
+            AWS environment using AWS Lambda, Node.js, Jsonata. Worked well
+            alone and in a team.
           </p>
         </motion.div>
 
@@ -99,7 +100,10 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          Developed 7 Full Stack and Front End personal projects using React, Javascript, Typescript, Node.js, Nest.js, Redux, MongoDB, Apollo GraphQL, TypeORM, Tailwind, HTML and CSS.
+            Consistently seeking out new and creative solutions to the
+            challenges that arise in my projects. I have also taken the
+            initiative to learn and apply new technologies and techniques to
+            improve the efficiency and effectiveness of my work.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -124,10 +128,9 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            I constantly strive to think outside the box and come up with unique
+            solutions to challenges. This creativity allows me to develop
+            innovative and visually stunning websites.
           </p>
         </motion.div>
       </div>
