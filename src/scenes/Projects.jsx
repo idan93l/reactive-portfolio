@@ -27,16 +27,16 @@ const Project = ({ title, content, href, demo }) => {
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">{content}</p>
         <br />
-        <div className="w-[30%] flex justify-between flex-row">
-          <a
-            className="text-red hover:opacity-50 transition duration-500"
-            href={href}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub className="text-3xl" />
-          </a>
-          {demo ? (
+        {demo ? (
+          <div className="w-[30%] flex justify-between flex-row">
+            <a
+              className="text-red hover:opacity-50 transition duration-500"
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub className="text-3xl" />
+            </a>
             <a
               className="text-blue hover:opacity-50 transition duration-500"
               href={demo}
@@ -45,17 +45,17 @@ const Project = ({ title, content, href, demo }) => {
             >
               <BsFillPlayCircleFill className="text-3xl" />
             </a>
-          ) : (
-            <a
-              className="text-gray-300 hover:opacity-50 transition duration-500"
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsFillPlayCircleFill className="text-3xl" />
-            </a>
-          )}
-        </div>
+          </div>
+        ) : (
+          <a
+            className="text-red hover:opacity-50 transition duration-500"
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub className="text-3xl" />
+          </a>
+        )}
       </div>
       <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
@@ -122,7 +122,12 @@ const Projects = () => {
           />
 
           {/* ROW 2 */}
-          <Project title="CaRent" content="Fully responsive car rental app." />
+          <Project
+            title="CaRent"
+            content="Fully responsive car rental app."
+            href="https://github.com/idan93l/cars-app"
+            demo=""
+          />
           <Project
             title="Launchpad"
             content="Responsive playable, customizable, sample-based music Launchpad."
