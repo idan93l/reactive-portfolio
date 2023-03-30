@@ -28,7 +28,7 @@ const Project = ({ title, content, href, demo }) => {
         <p className="mt-7">{content}</p>
         <br />
         {demo ? (
-          <div className="w-[30%] flex justify-between flex-row">
+          <div className="w-[40%] flex justify-between flex-row">
             <a
               className="text-red hover:opacity-50 transition duration-500"
               href={href}
