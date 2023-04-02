@@ -109,17 +109,18 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project
+            title="AI-Tshirt"
+            content="Responsive app that allows the user to customize a 3D T-shirt model with the power of AI."
+            href="https://github.com/idan93l/threejs_product"
+            demo="https://aitshirt.onrender.com/"
+          />
+          <Project
             title="Sequencer"
             content="Responsive platform that allows multiple users to make music together in real-time through a beat sequencer."
             href="https://github.com/idan93l/sequencer-front"
             demo="https://sequencer.onrender.com"
           />
-          <Project
-            title="Friend-Ship"
-            content="Registration with validation. Uploading image to profile and posts. likes and comments. Adding friends and visiting their profile pages. Responsive, dark/light mode."
-            href="https://github.com/idan93l/friend-ship"
-            demo=""
-          />
+
 
           {/* ROW 2 */}
           <Project
@@ -134,10 +135,10 @@ const Projects = () => {
             href="https://github.com/idan93l/music-launchpad"
             demo="https://music-launchpad.netlify.app"
           />
-          <Project
-            title="User-Management"
-            content="Responsive user management app where the admin can activate/deactivate any user. Double-clicking a user opens his profile page."
-            href="https://github.com/idan93l/user-management-app"
+                    <Project
+            title="Friend-Ship"
+            content="Registration with validation. Uploading image to profile and posts. likes and comments. Adding friends and visiting their profile pages. Responsive, dark/light mode."
+            href="https://github.com/idan93l/friend-ship"
             demo=""
           />
 
@@ -149,9 +150,9 @@ const Projects = () => {
             demo="https://christmas-snake.netlify.app"
           />
           <Project
-            title="Portfolio"
-            content="Responsive and clean looking portfolio made from scratch."
-            href="https://github.com/idan93l/reactive-portfolio"
+            title="User-Management"
+            content="Responsive user management app where the admin can activate/deactivate any user. Double-clicking a user opens his profile page."
+            href="https://github.com/idan93l/user-management-app"
             demo=""
           />
           <div
