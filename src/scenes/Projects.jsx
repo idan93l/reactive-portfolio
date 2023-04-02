@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Developed 7 Full Stack and Front End personal projects using React,
+          Developed 8 Full Stack and Front End personal projects using React,
           Javascript, Typescript, Node.js, Nest.js, Redux, MongoDB, GraphQL,
           Tailwind, HTML, CSS.
         </p>
