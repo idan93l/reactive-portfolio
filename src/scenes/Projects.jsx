@@ -86,9 +86,9 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Developed 8 Full Stack and Front End personal projects using React,
-          Javascript, Typescript, Node.js, Nest.js, Redux, MongoDB, GraphQL,
-          Tailwind, HTML, CSS.
+          Developed 10 Full Stack and Front End personal projects using React,
+          Javascript, Typescript, Next.js, Node.js, Nest.js, Redux, Socket.io,
+          OpenAI, MongoDB, GraphQL, Tailwind, HTML, CSS.
         </p>
       </motion.div>
 
@@ -102,12 +102,6 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
-            className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            BEAUTIFUL USER INTERFACES
-          </div>
           <Project
             title="AI-Tshirt"
             content="Responsive app that allows the user to customize a 3D T-shirt model with the power of AI."
@@ -120,9 +114,22 @@ const Projects = () => {
             href="https://github.com/idan93l/sequencer-front"
             demo="https://sequencer.onrender.com"
           />
-
+          <Project
+            title="To-do-list"
+            content="Responsive to do list app with the Ability to login to firebase and save the list data to firestore.
+            The list items can be added / toggled / edited / deleted.
+            Has dark / light mode themes.
+            "
+            href="https://github.com/idan93l/todo-app-next"
+            demo="https://todo-app-next-ecru.vercel.app/"
+          />
 
           {/* ROW 2 */}
+          <Project
+            title="Job-search"
+            content="Responsive job search app with pagination."
+            href="https://github.com/idan93l/react_native_jobs"
+          />
           <Project
             title="CaRent"
             content="Fully responsive car rental app."
@@ -130,12 +137,6 @@ const Projects = () => {
             demo=""
           />
           <Project
-            title="Launchpad"
-            content="Responsive playable, customizable, sample-based music Launchpad."
-            href="https://github.com/idan93l/music-launchpad"
-            demo="https://music-launchpad.netlify.app"
-          />
-                    <Project
             title="Friend-Ship"
             content="Registration with validation. Uploading image to profile and posts. likes and comments. Adding friends and visiting their profile pages. Responsive, dark/light mode."
             href="https://github.com/idan93l/friend-ship"
@@ -149,18 +150,18 @@ const Projects = () => {
             href="https://github.com/idan93l/christmas_snake"
             demo="https://christmas-snake.netlify.app"
           />
+            <Project
+              title="Launchpad"
+              content="Responsive playable, customizable, sample-based music Launchpad."
+              href="https://github.com/idan93l/music-launchpad"
+              demo="https://music-launchpad.netlify.app"
+            />
           <Project
             title="User-Management"
             content="Responsive user management app where the admin can activate/deactivate any user. Double-clicking a user opens his profile page."
             href="https://github.com/idan93l/user-management-app"
             demo=""
           />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            SMOOTH USER EXPERIENCE
-          </div>
         </motion.div>
       </div>
     </section>
